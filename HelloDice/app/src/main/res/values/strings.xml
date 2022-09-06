@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloDice</string>
+    <string name="text1">Dice Game</string>
+    <string name="TextDice1">Waiting Roll</string>
+    <string name="TextDice2">Waiting Roll</string>/
+    <string name="buttonRoll">Roll</string>
+</resources>
