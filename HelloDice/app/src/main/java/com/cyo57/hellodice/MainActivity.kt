@@ -39,6 +39,21 @@ class MainActivity : AppCompatActivity() {
             else -> R.drawable.dice_6
         }
         imageDice.setImageResource(imageRes)
+
+
+        val imageDice2: ImageView = findViewById(R.id.imageView2)
+        val myDice2 = Dice(6)
+        val resultDice2 = myDice2.roll()
+
+        val imageRes2 = when (resultDice2) {
+            1 -> R.drawable.dice_1
+            2 -> R.drawable.dice_2
+            3 -> R.drawable.dice_3
+            4 -> R.drawable.dice_4
+            5 -> R.drawable.dice_5
+            else -> R.drawable.dice_6
+        }
+        imageDice2.setImageResource(imageRes2)
     }
 }
 
